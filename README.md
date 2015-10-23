@@ -6,19 +6,21 @@
 * Merge DATA
 * Calculate Mean Of needed Features
 * Write the data to file 
-### Variables Used and Description
-* train: Variable data contains Train Data.
-* trainActivities: Variable data contains Train labels Data.
-* trainSubjects:  Variable data contains Train subject Data.
-* test: Variable data contains test Data.
-* testActivities: Variable data contains test labels Data.
-* testSubjects: Variable data contains test subject Data.
-* allData: variable data contains Merged Data (Train and test).
-* activityLabels: variable data contain activityLabels.
-* features: variable data contain all features.
-* featuresWanted: variable data contains features related to (Mean and standard deviation).
-* allData_Featurewanted: variable data contains allData with only featuresWanted.
-* allData_Featurewanted_mean: variable data contains mean of allData with only featuresWanted.
+
+## Variables Used and Description
+1. train: Variable data contains Train Data.
+2. trainActivities: Variable data contains Train labels Data.
+3. trainSubjects:  Variable data contains Train subject Data.
+4. test: Variable data contains test Data.
+5. testActivities: Variable data contains test labels Data.
+6. testSubjects: Variable data contains test subject Data.
+7. allData: variable data contains Merged Data (Train and test).
+8. activityLabels: variable data contain activityLabels.
+9. features: variable data contain all features.
+10. featuresWanted: variable data contains features related to (Mean and standard deviation).
+11. allData_Featurewanted: variable data contains allData with only featuresWanted.
+12. allData_Featurewanted_mean: variable data contains mean of allData with only featuresWanted.
+
 ### 'run_analysis.R' script does the following:
 1. Set the directory to the ../data/
 2. Read X_train.txt, y_train.txt and subject_train.txt from the "./UCI HAR Dataset/train" folder and store them in train, trainActivities and trainSubjects variables respectively.
