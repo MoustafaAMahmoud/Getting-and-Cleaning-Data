@@ -6,7 +6,7 @@
 * Merge DATA
 * Calculate Mean Of needed Features
 * Write the data to file 
-## Variables Used and Description
+### Variables Used and Description
 * train: Variable data contains Train Data.
 * trainActivities: Variable data contains Train labels Data.
 * trainSubjects:  Variable data contains Train subject Data.
@@ -19,7 +19,7 @@
 * featuresWanted: variable data contains features related to (Mean and standard deviation).
 * allData_Featurewanted: variable data contains allData with only featuresWanted.
 * allData_Featurewanted_mean: variable data contains mean of allData with only featuresWanted.
-## 'run_analysis.R' script does the following:
+### 'run_analysis.R' script does the following:
 1. Set the directory to the ../data/
 2. Read X_train.txt, y_train.txt and subject_train.txt from the "./UCI HAR Dataset/train" folder and store them in train, trainActivities and trainSubjects variables respectively.
 3. Read X_test.txt, y_test.txt and subject_test.txt from the "./UCI HAR Dataset/test" folder and store them in test, testActivities and testSubjects variables respectively.
